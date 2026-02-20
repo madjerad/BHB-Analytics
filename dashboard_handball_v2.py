@@ -21,7 +21,7 @@ from datetime import datetime
 
 st.set_page_config(
     page_title="BHB Analytics Pro",
-    page_icon="🤾",
+   -- page_icon="🤾",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -882,3 +882,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
