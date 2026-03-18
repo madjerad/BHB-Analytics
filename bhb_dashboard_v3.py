@@ -152,7 +152,7 @@ def chart(d1, d2, l1, l2, metric, title, show_trend=False):
     fig.update_layout(title=title, height=600, hovermode='x unified', plot_bgcolor='white', font=dict(family='Inter'), xaxis=dict(title="Minute", gridcolor='rgba(0,0,0,0.1)'), yaxis=dict(title=metric, gridcolor='rgba(0,0,0,0.1)'), legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"))
     return fig
 
-st.title("🤾 BHB Analytics")
+st.title("BHB Analytics...")
 
 df = None
 if os.path.exists('Base_Donnees_Handball.xlsx'):
